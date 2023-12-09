@@ -60,9 +60,9 @@ formulario.addEventListener('submit', e => {
 function agregarGastoLista(gasto) {
     const li = document.createElement('li');
 
-    li.className = 'list-group-item d-flex justify-content-between align-items-center';
+    li.className = 'card-text list-group-item d-flex justify-content-between align-items-center';
     li.dataset.id = gasto.id;
-    li.innerHTML = `${gasto.desc} <span class="badge badge-primary badge-pill">$ ${gasto.cantidad}</span> ${gasto.categoria}`;
+    li.innerHTML = `${gasto.categoria} ,${gasto.cantidad}, ${gasto.desc}`;
     const btnBorrar = document.createElement('button');
     btnBorrar.textContent = 'Borrar';
 

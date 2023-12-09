@@ -15,22 +15,23 @@
             <input type="number" id="cantidad" placeholder="0.0" required class="form-control">
             <select class="form-select" name="" id="categoria">
                 <option value="0" selected disabled>Seleccione una categoria</option>
-                <option value="1">Alimentacion</option>
-                <option value="2">Transporte</option>
-                <option value="3">Vivienda</option>
-                <option value="4">Salud</option>
-                <option value="5">Educacion</option>
-                <option value="6">Vestimenta</option>
-                <option value="7">Servicios</option>
-                <option value="8">Otros</option>
+                <option value="Alimentacion">Alimentacion</option>
+                <option value="Transporte">Transporte</option>
+                <option value="Vivienda">Vivienda</option>
+                <option value="Salud">Salud</option>
+                <option value="Educacion">Educacion</option>
+                <option value="Vestimenta">Vestimenta</option>
+                <option value="Servicios">Servicios</option>
+                <option value="Otros">Otros</option>
             </select>
             <textarea class="" name="desc" id="desc" rows="3"></textarea>
             <button class="btn btn-primary" type="submit">Guardar</button>
         </form>
     </div>
     
-    <div class="card" id="lista-gastos-container">
+    <div class="container" id="lista-gastos-container">
         <ul id="lista-gastos" class="list-group"></ul>
+        <h5 id="total">Total $0.0</h5>
     </div>
 
     <script src="./script.js"></script>
