@@ -1,0 +1,28 @@
+
+@media screen and (min-width: 768px) {
+    .card {
+        background-color: #f2f2f2;
+        color: #333;
+        font-family: Arial, sans-serif;
+        
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .card {
+        background-color: #e6e6e6;
+        color: #666;
+        font-family: Verdana, sans-serif;
+        
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .card {
+        background-color: #d9d9d9;
+        color: #999;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        
+    }
+}
